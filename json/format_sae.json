@@ -1,0 +1,139 @@
+{
+    "data": 
+        [
+            {
+                "id":1,
+                "name":"Melakukan Apel Bersama",
+                "format_code":"APELBERSAMA",
+                "due_date":false,
+                "one_date":true,
+                "date_now":true,
+                "informasi" :"Apel Bersama dilakukan di pagi hari jika tidak sempat absen ",
+                "max_cuti" : 1,
+                "text_tambahan" : "",
+                "tambahan":false
+                
+            },
+            {
+                "id":2,
+                "name":"Peserta Tugas Belajar",
+                "format_code":"TB",
+                "due_date":true,
+                "one_date":false,
+                "date_now":false,
+                "informasi" :"dilakukan sekali dalam 1 tahun ",
+                "max_cuti" : 365,
+                "text_tambahan" : "Universitas (Contoh : UGM)",
+                "tambahan":true
+            },
+            {
+                "id":3,
+                "name":"Perjalanan Dinas (di dalam daerah)",
+                "format_code":"DD",
+                "due_date":true,
+                "one_date":true,
+                "date_now":true,
+                "informasi" :"Pukul 06:10 sd 07:10 WIB apabila melakukan perjalanan dinas dalam wilayah kabupaten klaten dilakukan di pagi hari sehingga tidak memungkinkan melakikan presensi di jantor pukul 15:30 sb 16:30 WIB apabila melakukan perjalanan dinas dalam wilayah sehingga tidak memungkinkan melakukan presensi pulang di kantor",
+                "max_cuti" : 2,
+                "text_tambahan" : "Tempat Dinas (Contoh : JATINOM)",
+                "tambahan":true
+            },
+            {
+                "id":11,
+                "name":"Perjalanan Dinas (di luar daerah)",
+                "format_code":"DL",
+                "due_date":true,
+                "one_date":true,
+                "date_now":true,
+                "informasi" :"pengiriman SMS dilakukan dmaksimal sebelum jam 07:10 WIB di hari keberangkatan/dilakukan pada hari pertama keberangkatan",
+                "max_cuti" : 2,
+                "text_tambahan" : "Tempat Dinas (Contoh : BKNJAKARTA)",
+                "tambahan":true
+            },
+            {
+                "id":4,
+                "name":"Sakit",
+                "format_code":"SAKIT",
+                "due_date":true,
+                "one_date":true,
+                "date_now":true,
+                "informasi" :"dikirmkan pada hari sakit dan diusahakan sebelum jam 07:10 pagi",
+                "max_cuti" : 2,
+                "text_tambahan" : "",
+                "tambahan":false
+            },
+            {
+                "id":5,
+                "name":"Cuti Tahunan",
+                "format_code":"TAHUNAN",
+                "due_date":true,
+                "one_date":true,
+                "date_now":true,
+                "informasi" :"dikirim pada hari pertama cuti tahunan sebelum jam 07:10 pagi atau sebelum mengambil cuti tahunan",
+                "max_cuti" : 3,
+                "text_tambahan" : "",
+                "tambahan":false
+            },
+            {
+                "id":6,
+                "name":"Cuti Alasan Penting",
+                "format_code":"PENTING",
+                "due_date":true,
+                "one_date":true,
+                "date_now":true,
+                "informasi" :"Cuti alasan penting digunakan untuk  ibu, bapak isteri atau suami , anak ,adik , kakak, mertua, menantu sakit keras / menunggal dunia/mengurus hak hak dari anggota keluarga yang meninggal dunia melangsungkan perkawinan PNS laki-laki yang istrinya melahirkan/operasi casesar PNS mengalami musibah kebakaran rumah atau bencana alam PNS ditempatkan pada perwakilan RI yang rawan/berbahaya",
+                "max_cuti" : 3,
+                "text_tambahan" : "Alasan (contoh : MELAHIRKAN)",
+                "tambahan":true
+            },
+            {
+                "id":7,
+                "name":"Cuti Melahirkan",
+                "format_code":"MELAHIRKAN",
+                "due_date":true,
+                "one_date":true,
+                "date_now":true,
+                "informasi" :"",
+                "max_cuti" : 3,
+                "text_tambahan" : "",
+                "tambahan":false
+            },
+            {
+                "id":8,
+                "name":"Cuti Besar",
+                "format_code":"BESAR",
+                "due_date":true,
+                "one_date":false,
+                "date_now":false,
+                "informasi" :"",
+                "max_cuti" : 2,
+                "text_tambahan" : "",
+                "tambahan":false
+            },
+            {
+                "id":9,
+                "name":"Cuti Diluar Tanggungan Negara",
+                "format_code":"CLTN",
+                "due_date":true,
+                "one_date":false,
+                "date_now":false,
+                "informasi" :"dikirm sekali dalam setahun",
+                "max_cuti" : 365,
+                "text_tambahan" : "",
+                "tambahan":false
+            },
+            {
+                "id":10,
+                "name":"Cuti Bencana ALam",
+                "format_code":"BENCANA",
+                "due_date":true,
+                "one_date":true,
+                "date_now":true,
+                "informasi" :"dikirim pada haro pertama terjadi bencana ketika tidak melakukan tindakan pada kebencanaan ",
+                "max_cuti" : 3,
+                "text_tambahan" : "",
+                "tambahan":false
+            }
+        ]
+    
+}

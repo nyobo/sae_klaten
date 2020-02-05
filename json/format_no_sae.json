@@ -1,0 +1,19 @@
+{
+    "data":[
+        {
+            "id" : 1,
+            "code_negara":"62",
+            "no":"85802751751",
+            "status" : true,
+            "name" : "NO SAPA 1"
+
+        },
+        {
+            "id" : 2,
+            "code_negara":"62",
+            "no":"85802760760",
+            "status" : true,
+            "name" : "NO SAPA 2"
+        }
+    ]
+}

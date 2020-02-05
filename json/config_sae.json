@@ -1,0 +1,10 @@
+{
+    "data":[
+        {
+            "id":1,
+            "format_tanggal" : "dd/MM/yyyy",
+            "format_sperator_code_html" : "%23",
+            "format_sperator_code" : "#"
+        }
+    ]
+}
